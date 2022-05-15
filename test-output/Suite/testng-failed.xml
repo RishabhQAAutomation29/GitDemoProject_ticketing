@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.SLATest">
+        <methods>
+          <include name="verifyPolicyDatePickerFunctionality"/>
+          <include name="verifyProductCategoryFunctionality"/>
+          <include name="beforeMethod"/>
+          <include name="verifyClientCategoryFunctionality"/>
+          <include name="verifyDeleteButtonFunctionality"/>
+          <include name="verifyResolveTimeValidations"/>
+          <include name="close"/>
+          <include name="reportWrapUp"/>
+          <include name="setUp"/>
+          <include name="verifyBooleanFunctionality"/>
+          <include name="verifyDepartmentCategoryFunctionality"/>
+          <include name="verifyBooleanSaveButtonFunctionality"/>
+          <include name="verifyResponseTimeValidations"/>
+        </methods>
+      </class> <!-- testcases.SLATest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-16T15:50:09 IST" name="Default suite" finished-at="2021-07-16T15:51:33 IST" duration-ms="84309">
+    <groups>
+    </groups>
+    <test started-at="2021-07-16T15:50:09 IST" name="Default test" finished-at="2021-07-16T15:51:33 IST" duration-ms="84309">
+      <class name="testcases.ExternalLinkTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ExternalLinkTest@2525ff7e]" started-at="2021-07-16T15:50:09 IST" name="setUp" finished-at="2021-07-16T15:50:29 IST" duration-ms="19673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.ExternalLinkTest@2525ff7e]" started-at="2021-07-16T15:50:29 IST" name="beforeMethod" finished-at="2021-07-16T15:50:29 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ExternalLinkTest.verifyExternalLinkPageUrl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyExternalLinkPageUrl()[pri:0, instance:testcases.ExternalLinkTest@2525ff7e]" started-at="2021-07-16T15:50:29 IST" name="verifyExternalLinkPageUrl" finished-at="2021-07-16T15:51:07 IST" duration-ms="37862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExternalLinkPageUrl -->
+        <test-method is-config="true" signature="reportWrapUp(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.ExternalLinkTest@2525ff7e]" started-at="2021-07-16T15:51:07 IST" name="reportWrapUp" finished-at="2021-07-16T15:51:07 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyExternalLinkPageUrl status=SUCCESS method=ExternalLinkTest.verifyExternalLinkPageUrl()[pri:0, instance:testcases.ExternalLinkTest@2525ff7e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.ExternalLinkTest.verifyExternalLinkPageUrl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportWrapUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.ExternalLinkTest@2525ff7e]" started-at="2021-07-16T15:51:07 IST" name="beforeMethod" finished-at="2021-07-16T15:51:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ExternalLinkTest.verifyCharactersLength()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCharactersLength()[pri:0, instance:testcases.ExternalLinkTest@2525ff7e]" started-at="2021-07-16T15:51:07 IST" name="verifyCharactersLength" finished-at="2021-07-16T15:51:33 IST" depends-on-methods="testcases.ExternalLinkTest.verifyExternalLinkPageUrl" duration-ms="26474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCharactersLength -->
+        <test-method is-config="true" signature="reportWrapUp(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.ExternalLinkTest@2525ff7e]" started-at="2021-07-16T15:51:33 IST" name="reportWrapUp" finished-at="2021-07-16T15:51:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCharactersLength status=SUCCESS method=ExternalLinkTest.verifyCharactersLength()[pri:0, instance:testcases.ExternalLinkTest@2525ff7e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.ExternalLinkTest.verifyCharactersLength()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportWrapUp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.ExternalLinkTest@2525ff7e]" started-at="2021-07-16T15:51:33 IST" name="close" finished-at="2021-07-16T15:51:34 IST" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.ExternalLinkTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
